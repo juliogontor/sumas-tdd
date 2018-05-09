@@ -11,4 +11,4 @@ const exchange = (tipo,valor) => {
     if (tipo === "dollar") return valor * 18;
 }
 
-export default exchange;
+module.exports = exchange;
