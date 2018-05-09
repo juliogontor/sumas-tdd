@@ -1,4 +1,4 @@
-import exchange from "./exchange"
+const exchange = require('./exchange')
 
 test('2 peso to dolar it should return 36', () => {
     const resultado = exchange("dollar",2);
